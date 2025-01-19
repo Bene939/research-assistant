@@ -1,0 +1,9 @@
+python-dotenv==0.21.0
+langchain==0.0.148
+langchain-groq==0.1.10
+langchain-community==0.0.18
+faiss-cpu==1.7.3
+pickle-mixin==1.0.2
+sentence-transformers==2.2.0
+streamlit==1.15.0
+fastapi==0.95.0
