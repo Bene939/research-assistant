@@ -23,7 +23,6 @@ if user_prompt := st.chat_input("Do you offer joint accounts?"):
     url = f"http://127.0.0.1:8000/assistant_response?question={user_prompt}"
 
     response = requests.get(url)
-    print("raw response: ", response)
     response = response.json()
     with st.chat_message("assistant"):
         st.markdown(response)
